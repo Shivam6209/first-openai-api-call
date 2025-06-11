@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI Chat Interface</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>OpenAI Chat Interface</h1>
+            <div class="token-stats">
+                <div id="token-counter" class="token-counter">Tokens this message: 0</div>
+                <div id="total-tokens" class="total-tokens">Total tokens: 0</div>
+            </div>
+        </header>
+        <div class="chat-container">
+            <div id="response-area" class="response-area">
+                <p class="welcome-message">
+                    <span class="wave">👋</span> 
+                    Welcome! I'm ready to help. Enter your prompt below to start chatting.
+                </p>
+            </div>
+            <div class="input-container">
+                <div class="input-area">
+                    <textarea 
+                        id="prompt-input" 
+                        placeholder="Type your message here..."
+                        rows="3"
+                    ></textarea>
+                    <button id="send-button">
+                        <span class="button-text">Send</span>
+                        <div class="loading-spinner"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

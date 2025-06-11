@@ -1,0 +1,24 @@
+Make a successful OpenAI API call using the gpt-3.5-turbo model and print the response along with token usage.
+
+Requirements:
+
+Call the API with:
+A fixed system prompt
+A user input prompt (taken via console or UI)
+Display the assistant’s response and total token count.
+Here’s a short and clear submission guideline for the “First API Call” assignment:
+
+Include:
+
+Your code (irst_call.js)
+
+A README.md with:
+
+What the script does
+How to run it (dependencies, setup)
+The script must:
+
+Take a user prompt via console or UI
+Use a fixed system prompt
+Print the assistant’s reply and token usage
+Do not commit your API key.
